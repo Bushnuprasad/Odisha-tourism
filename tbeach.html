@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="child.css">
+  <link rel="stylesheet" href="navor.css">
+  <link rel="stylesheet" href="footer.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+
+ 
+</head>
+
+    <body>
+        <div class="top-navbar">
+          <p>WELCOME TO ODISHA TURISM</p>
+          <div class="icons">
+             
+              <a href="beach.html"><img src="./images/register.png" alt="" width="18px">Home</a>
+          </div>
+      </div>
+      <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand"  id="logo"><span id="span1">O</span>disha <span>Tourism</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link  " aria-current="page" href="beach.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="Attraction.html">Attraction</a>
+              </li>
+             
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Odisha</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Discover</a>
+              </li>
+            </ul>
+            <form class="d-flex" id="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+         
+               
+            <section class="love">
+              <div class="lp">
+                 <img src="eduford_img/Puri.jpg" alt="">
+              </div>
+             </section>
+      
+         </section>
+         <section class="bhu">
+     
+    
+    
+      <!-- ******************************************************************************************** -->
+    
+          <h2 style="text-align: center; color: #ffc800;">Talasari beach  </h2>
+          <p>Where Nature Soothes Your Senses</p>
+     
+        <div class="spp">
+          <h2 style="text-align: center; color: #32302b;">see to believe</h2>
+        </div> 
+          <div class="sp">
+          <p>Below is a visual treat of Puri. Enjoy the immersive experience and experience the 360 degree views and <br>virtual tours which are soon going to enhance your visual journey!</p>
+        </div>
+       
+          <div class="slideshow-container"> 
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlidesss " >
+             
+              <img src="eduford_img/talsari corosal1.jpg ">
+             
+            </div>
+           
+            <div class="mySlidesss " >
+              
+              <img src="eduford_img/talsari corosal2.jpg" >
+            
+          </div> 
+        <div class="mySlidesss " >
+           
+             <img src="eduford_img/talsari corosal3.jpg ">
+             
+           </div> 
+           <div class="mySlidesss " >
+             
+             <img src="eduford_img/talsari corosal4.jpg" >
+           
+           </div> 
+            <!-- Next and previous buttons -->
+            <a class="prevvv" onclick="plusSlidesss(-1)"></a>
+            <a class="nexttt" onclick="plusSlidesss(1)"></a>
+           
+          </div>
+          <br> 
+           <!-- The dots/circles -->
+              <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dottt active" onclick="currentSlidess(1)"></span>
+            <span class="dottt" onclick="currentSlidess(2)"></span>
+            <span class="dottt" onclick="currentSlidess(3)"></span>
+            <span class="dottt" onclick="currentSlidess(4)"></span>
+          </div>
+         
+          <script> 
+            let slideIndexxx = 0;
+           showSlidesss();
+           
+            function showSlidesss() {
+             let i;
+             let slidesss = document.getElementsByClassName("mySlidesss");
+             let dotsss = document.getElementsByClassName("dottt");
+             for (i = 0; i < slidesss.length; i++) {
+               slidesss[i].style.display = "none";  
+             }
+             slideIndexxx++;
+             if(slideIndexxx >slidesss.length)
+             {slideIndexxx=1}
+             for (i = 0; i < dotsss.length; i++) {
+               dotsss[i].className = dotsss[i].className.replace(" active", "");
+             }
+             slidesss[slideIndexxx-1].style.display = "block";  
+             dotsss[slideIndexxx-1].className += " active";
+             setTimeout(showSlidesss,2000);
+           }
+           </script>
+         
+         <div class="spp">
+          <h2 >Other Things To Do</h2>
+        </div> 
+        <div class="sp">
+        <p>Talasari offers the perfect concoction of serenity & wilderness. Bichitrapur located 10 KM from Talasari is <br>
+           Odisha’s second largest mangrove forest. Enjoy boating and birding in the pristine wilderness at the <br>
+           Bichitrapur Nature Camp. For sea food lovers there are sumptuous spread on offer at local <br> 
+           Try out the crab masala.</p>
+        </div>
+        <div class="row1">
+          <div class="corse-col">
+            
+              <img src="eduford_img/tal1.jpg">
+              <h3>BOATING </h3>
+            
+            </div>
+            <div class="corse-col">
+            
+              <img src="eduford_img/tal2.jpeg" >
+              <h3>BIRD WATCHING</h3>
+             
+            </div>
+            <div class="corse-col">
+            
+              <img src="eduford_img/tal3.jpg" >
+              <h3>LOCAL DELICACY</h3>
+             
+            </div>
+           
+          </div>
+        </div>
+        <div class="spp">
+          <h2 >Stay</h2>
+        </div> 
+        <div class="sp">
+        <p>There's a variety of options for you to stay at. From Star Rated Hotels, Eco Tour Nature Camps equipped<br>
+          with state of the art swiss tents and facilities to OTDC Government Hotels, Bed Breakfasts and Homestays to<br>
+          choose from. Browse the list below to choose your preferred accomodation</p>
+        </div>
+                <!-- **************************************************************************** -->
+                <section class="spp">
+
+                  <p class="maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3709.597512970436!2d87.4556950751217!3d21.601628380194967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1ccde21fb61b97%3A0x1c7d73bbafdf4388!2sTalsari%20sea%20beach!5e0!3m2!1sen!2sin!4v1703532398562!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </p>
+                  <section>  
+      
+                    <footer id="footer">
+                        <div class="footer-top">
+                          <div class="container">
+                            <div class="row">
+                    
+                              <div class="col-lg-3 col-md-6 footer-contact">
+                                 <h3 font-size="20px">Odisha tourism</h3>
+                                 <p font-size="50px">
+                                  Cuttack <br>
+                                 Bhubneswar <br>
+                                  Khordha <br>
+                                 </p>
+                           
+                             </div>
+                             <div class="col-lg-3">
+                              <strong>Phone:</strong> +91 9556375235 <br>
+                              <strong>Email:</strong> odishatourism@.com<br>
+                            </div>
+                              <div class="col-lg-3 col-md-6 footer-links">
+                                <h4>Usefull Links</h4>
+                                <ul>
+                                  <li><a href="/index.html">Home</a></li>
+                                  <li><a href="/about.html">About Us</a></li>
+                                  <li><a href="/about.html">Services</a></li>
+                                  <li><a href="/about.html">Terms of service</a></li>
+                                  <li><a href="#">Privacy policey</a></li>
+                                </ul>
+                              </div>
+                              <div class="col-lg-3 col-md-6 footer-links">
+                                <h4>Our Social Networks</h4>
+                                <p>Connect with us our social media platform</p>
+                    
+                                <div class="socail-links mt-3">
+                                  <a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a>
+                                  <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                                  <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+                                  <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                                  <a href="https://www.skyp.com/"><i class="fa-brands fa-skype"></i></a>
+                                  <a href="https://www.linledin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <hr>
+                        <div class="container py-4">
+                          <div class="copyright">
+                            © Copyright <strong><span>Odisha TURISM</span></strong>. All Rights Reserved
+                          </div>
+                          <div class="credits">
+                            Designed by <a href="https://www.google.com/">Bpb coding</a>
+                          </div>
+                        </div>
+                      </footer>
+                    
+                       
+                       
+                    
+                    
+                    
+                    
+                          
+                      <script src="script.js"></script>
+                            
+                    
+                    </section>
+</body>
+</html>
