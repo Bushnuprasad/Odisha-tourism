@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odisha turist place</title>
+    <link rel="stylesheet" href="navor.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    
+   
+</head>
+<body>
+
+   
+      <div class="top-navbar">
+            <p>WELCOME TO ODISHA TOURISM</p>
+            <div class="icons">
+             <!-- <a href="login.html">Login</a> -->
+             <!-- <a href="register.html">Register</a> -->
+            </div>
+           
+        </div>
+  
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" id="logo"><span id="span1">O</span>disha <span>Tourism</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span><img src="eduford_img/menu.png" alt="" width="50px"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="Attraction.html">Attraction</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="/index.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Districts
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background-color: rgb(65, 1, 83);">
+                <li><a class="dropdown-item" href="/smartphone.html">Cuttack</a></li>
+                <li><a class="dropdown-item" href="/mobile.html">Sambalpur</a></li>
+                <li><a class="dropdown-item" href="/index.html">keunjhar</a></li>
+                <li><a class="dropdown-item" href="/fridge.html">Dhenkanal</a></li>
+                <li><a class="dropdown-item" href="/ac.html">Bhubneswar</a></li>
+               
+              </ul>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Odisha</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Discover</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+       
+    <section class="love">
+        <div class="slideshow-container"> 
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlidesss " >
+             
+              <img src="eduford_img/Talsari.jpg ">
+              
+            </div>
+           
+             <div class="mySlidesss " >
+              
+              <img src="eduford_img/Puri.jpg" >
+             
+            </div> 
+            <div class="mySlidesss " >
+           
+             <img src="eduford_img/Gopalpur.jpg " >
+           
+          </div> 
+          <div class="mySlidesss fadeee" >
+           
+            <img src="eduford_img/Paradeep.jpg " >
+          
+         </div> 
+         <div class="mySlidesss ">
+           
+          <img src="eduford_img/Chandrabhaga.jpg">
+        
+       </div> 
+            <!-- Next and previous buttons -->
+            <a class="prevvv" onclick="plusSlidesss(-1)"></a>
+            <a class="nexttt" onclick="plusSlidesss(1)"></a>
+           
+          </div>
+          <br> 
+           <!-- The dots/circles -->
+              <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dottt active" onclick="currentSlidess(1)"></span>
+            <span class="dottt" onclick="currentSlidess(2)"></span>
+            <span class="dottt" onclick="currentSlidess(3)"></span>
+            <span class="dottt" onclick="currentSlidess(4)"></span>
+            <span class="dottt" onclick="currentSlidess(5)"></span>
+            <span class="dottt" onclick="currentSlidess(6)"></span>
+          </div>
+         
+          <script> 
+            let slideIndexxx = 0;
+           showSlidesss();
+           
+            function showSlidesss() {
+             let i;
+             let slidesss = document.getElementsByClassName("mySlidesss");
+             let dotsss = document.getElementsByClassName("dottt");
+             for (i = 0; i < slidesss.length; i++) {
+               slidesss[i].style.display = "none";  
+             }
+             slideIndexxx++;
+             if(slideIndexxx >slidesss.length)
+             {slideIndexxx=1}
+             for (i = 0; i < dotsss.length; i++) {
+               dotsss[i].className = dotsss[i].className.replace(" active", "");
+             }
+             slidesss[slideIndexxx-1].style.display = "block";  
+             dotsss[slideIndexxx-1].className += " active";
+             setTimeout(showSlidesss,2000);
+           }
+           </script>
+</section>
+    <!-- section1 -->
+    <section class="bpb">
+        <div class="bp">
+          <h1> <span>Temples in odisha</span> </h1> 
+          <div class="btn"><button >
+            <a href="temple.html">View more</a> </button>
+          </div>
+         </div>
+        <div class="imgg" >
+          <img   src="eduford_img/temple - Copy.png" alt="">
+        </div>
+      </section>
+    
+    <!-- section2  -->
+    <section class="bpbp">
+      <div class="bp" >
+          <img   src="eduford_img/olive-ridley.png" alt="">
+      </div>
+        <div class="imgg" >
+          <h1> <span>wildlife sanctuary</span> </h1> 
+           <div class="btn"><button ><a href="sanctuary.html">View more</a></button></div>
+        </div>
+    </section>
+    <!-- <section3> -->
+      <section class="bpbpb">
+        <div class="bp">
+          <h1> <span>Beaches in odisha</span> </h1> 
+          <div class="btn"><button >
+            <a href="beach.html">View more</a> </button>
+          </div>
+         </div>
+        <div class="imgg" >
+          <img   src="eduford_img/beach.png" alt="">
+        </div>
+      </section>
+      <!-- section4 -->
+      <section class="bpbpbp">
+        <div class="bp" >
+            <img   src="eduford_img/odishi.png" alt="">
+        </div>
+          <div class="imgg" >
+            <h1> <span>Cultural heritage</span> </h1> 
+             <div class="btn"><button ><a href="culture.html">View more</a></button></div>
+          </div>
+      </section>
+ <section class="bpbxr" >
+    <h1 style="text-align: center; color: #ffc800;"><span>Cuisines to <b>explore</b></span> </h1>
+    <div class="slideshoww-container">
+
+      
+        <div class="mySlides ">
+          <div class="numbertext">1 / 6</div>
+          <img src="eduford_img/Pakhala22.png" >
+          <div class="text">Pakhala Vata</div>
+        </div>
+      
+        <div class="mySlides ">
+          <div class="numbertext">2 / 6</div>
+          <img src="eduford_img/Mutton.png" >
+          <div class="text">Matihandi Mutten</div>
+        </div>
+      
+        <div class="mySlides ">
+          <div class="numbertext">3 / 6</div>
+          <img src="eduford_img/pitha.png"  >
+           <div class="text">Pitha</div>
+        </div>
+        <div class="mySlides ">
+            <div class="numbertext">4 / 6</div>
+            <img src="eduford_img/rasogola33.png"  >
+             <div class="text">rasogola</div>
+          </div>
+          <div class="mySlides ">
+            <div class="numbertext">5 / 6</div>
+            <img src="eduford_img/Fish.png" >
+             <div class="text">Fish Curry</div>
+          </div>
+          <div class="mySlides ">
+            <div class="numbertext">6 / 6</div>
+            <img src="eduford_img/Crab.png"  >
+             <div class="text">Crab Curry</div>
+          </div>
+      
+      
+        <a class="prev" onclick="plusSlides(-1)" ></a>
+        <a class="next" onclick="plusSlides(1)" ></a>
+      </div>
+      <br>
+      
+    
+      <div style="text-align:center">
+        <span class="dot active" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+      <script> 
+        let slideIndex = 0;
+       showSlides();
+       
+        function showSlides() {
+         let i;
+         let slides = document.getElementsByClassName("mySlides");
+         let dots = document.getElementsByClassName("dot");
+         for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+         }
+         slideIndex++;
+         if(slideIndex >slides.length)
+         {slideIndex=1}
+         for (i = 0; i < dots.length; i++) {
+           dots[i].className = dots[i].className.replace(" active", "");
+         }
+         slides[slideIndex-1].style.display = "block";  
+         dots[slideIndex-1].className += " active";
+         setTimeout(showSlides,2000);
+       }
+       </script>
+</section>
+       
+    
+<!-- <p style="text-align: center;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3835014.6227103006!2d81.79544843041252!3d20.170250925499403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a226aece9af3bfd%3A0x133625caa9cea81f!2sOdisha!5e0!3m2!1sen!2sin!4v1703623557750!5m2!1sen!2sin" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+  -->
+   
+
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3">
+            
+            <p>
+              odisha tourism<br>
+              Cuttack <br>
+              Bhubneswar <br>
+              Khordha <br>
+            </p>
+          </div>
+          <div class="col-lg-3">
+            <strong>Phone:</strong> +91 9556375235 <br>
+            <strong>Email:</strong> odishatourism@.com<br>
+          </div>
+
+          <div class="col-lg-3 ">
+            <h4>Usefull Links</h4>
+           <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/about.html">Services</a></li>
+            <li><a href="/about.html">Terms of service</a></li>
+            <li><a href="/about.html">Privacy policey</a></li>
+           </ul>
+          </div>
+          <div class="col-lg-3 ">
+            <h4>Our Social Networks</h4>
+          
+            <div class="socail">
+              <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.skyp.com"><i class="fa-brands fa-skype"></i></a>
+              <a href="https://www.linledin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+          
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; Copyright <strong><span>odisha-tourism</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="#">bpb coding</a>
+      </div>
+    </div>
+  </footer>
+  <!-- footer -->
+
+
+
+
+
+
+
+  <a href="#" class="arrow"><i><img src="./images/arrow.png" alt=""></i></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+   
+   
+</body>
+</html>
